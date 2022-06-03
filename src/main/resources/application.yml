@@ -2,6 +2,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url              : jdbc:mysql://localhost:3308/study_backend_java11?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url              : jdbc:mysql://localhost:3310/spring_security?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username         : root
-    password         : niceday1234!
+    password         : sigenan0821
