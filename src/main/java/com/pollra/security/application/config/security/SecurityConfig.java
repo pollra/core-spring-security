@@ -34,11 +34,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    public AuthenticationProvider customAuthenticationProvider() {
-        return new CustomAuthenticationProvider();
-    }
-
-    @Bean
     public PasswordEncoder passwordEncoder() {
         return PasswordEncoderFactories.createDelegatingPasswordEncoder();
     }
