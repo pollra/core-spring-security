@@ -1,4 +1,4 @@
-package com.pollra.security.application.view;
+package com.pollra.security.application.view.controller;
 
 import com.pollra.security.application.view.form.AccountForm;
 import com.pollra.security.application.view.service.AccountService;

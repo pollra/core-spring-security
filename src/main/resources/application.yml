@@ -5,3 +5,5 @@ spring:
     url              : jdbc:mysql://localhost:3310/spring_security?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username         : root
     password         : sigenan0821
+server:
+  port: 12345
